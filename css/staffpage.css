@@ -1,0 +1,36 @@
+body{
+    background-image: url("images/image.jpeg");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed; 
+  }
+  .wrapper{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+  }
+  table{
+    background-color: white;
+    width: 1000px;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  tr,td,th{
+    height: 30px;
+  }
+  tr th{
+    background-color: #000;
+    color: #fff;
+  }
+  h1{
+    background-color: #fff;
+  }
+  td a{
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 10px 20px;
+    background-image: linear-gradient(black,white,black);
+  }
+  td a:hover{
+     background-image: linear-gradient(red,yellow,red);
+  }

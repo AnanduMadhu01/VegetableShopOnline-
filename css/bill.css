@@ -1,0 +1,60 @@
+body{
+				background-color: lightblue;
+				width: 1000px;
+				margin: auto;
+				padding-top: 50px;
+			}
+			th{
+				width: 1000px;
+				height: 20px;
+				color: #fff;
+				background: #000;
+			}
+			tr,td{
+				border: none;
+			}
+			.sname td{
+				align-self: center;
+				width: 500px;
+				color: blue;
+				
+			}
+			h1{
+				float: right;
+			}
+			h5 {
+				line-height: 2px;
+				float: right;
+				margin-right: 20px;
+			}
+			.shipping tr,td,th{
+				width: 500px;
+			}
+			.button a{
+				padding: 10px;
+				border: 1px solid black;
+				color: white;
+				background-image: linear-gradient(red,blue);
+				text-decoration: none;
+				border-radius: 10px;
+				position: fixed;
+				top: 90%;
+				left: 85%;
+			}
+			.button a:hover{
+				background-image: linear-gradient(blue,green);
+			}
+			.backbtn a{
+				padding: 10px;
+				border: 1px solid black;
+				color: white;
+				background-image: linear-gradient(red,blue);
+				text-decoration: none;
+				border-radius: 10px;
+				position: fixed;
+				top: 90%;
+				left: 80%;
+			}
+			.backbtn a:hover{
+				background-image: linear-gradient(blue,green);
+			}
